@@ -1,0 +1,30 @@
+name = input("Enter the name of a person: ")
+plural_noun = input("Enter a plural noun: ")
+verb_ending_in_ing = input("Enter a verb ending in -ing: ")
+number_a = input("Enter a Number: ")
+adverb = input("Enter an Adverb: ")
+noun_a = input("Enter a Noun: ")
+adjective_a = input("Enter an Adjective: ")
+number_b = input("Enter a Number: ")
+body_part = input("Enter a Body Part: ")
+noun_b = input("Enter a Noun: ")
+animal = input("Enter a Animal: ")
+noun_c = input("Enter a Noun: ")
+adjective_b = input("Enter an Adjective: ")
+
+madLib = f"You are in for a treat! Today I will be telling you the rules to play {name} ball. \
+First you must gather three {plural_noun} and set them in a triangle shape. Those will be bases. \
+You begin by going to the first base and {verb_ending_in_ing} for {number_a} seconds. \
+Immediatley after you finish you must run {adverb} to second base, but watch out! \
+While you are trying to get there, your opponent will try and throw a {noun_a} \
+at you. If it hits you, then you are out, If you make it, you should feel very {adjective_a} \
+because you have just scored {number_b} points. \
+Next you nust make it from second base to third base. This part is TRICKY. Using only your {body_part} \
+you must get a {noun_c} sized ball into a basket, before you can run. \
+Once you make it in the basket, make sure to take off running as fast as a \
+{animal} towards the final base. If you make it safely, you are one step away from victory. \
+Once on the Last Base, It is time to FOCUS as you will need to steal a {noun_c} \
+from your oppent as they try to avoid you. Once you have it, you win and can be crowned as a \
+{adjective_b} Champion!"
+
+print(madLib)
