@@ -27,4 +27,4 @@ Once on the Last Base, It is time to FOCUS as you will need to steal a {noun_c} 
 from your oppent as they try to avoid you. Once you have it, you win and can be crowned as a \
 {adjective_b} Champion!"
 
-print(madLib)ff
+print(madLib)
